@@ -1,6 +1,6 @@
 .contact_wrapper {
     height: 500px;
-    background-color: #0085FF;
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
     color: #fff;
     overflow: hidden;
 

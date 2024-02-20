@@ -1,5 +1,5 @@
 nav {
-    background-color: #0085FF;
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
     overflow: hidden;
     position: relative;
 
@@ -18,7 +18,7 @@ nav {
         max-width: 1170px;
         margin: 0 auto;
     }
-    
+
     .nav_con {
         height: 60px;
         display: flex;
@@ -123,7 +123,10 @@ nav {
 }
 
 @media screen and (min-width: 481px) {
-    .mobile_menu, .bars, .mobile_button {
+
+    .mobile_menu,
+    .bars,
+    .mobile_button {
         display: none;
     }
 }

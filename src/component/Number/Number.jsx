@@ -13,7 +13,7 @@ function Number() {
                     <VisibilitySensor partialVisibility offset= {{bottom: 200}}>
                         {({isVisible}) => (
                             <div>
-                              {isVisible ? <CountUp start={0} end={100} duration={5}/> : null}+  
+                              {isVisible ? <CountUp start={0} end={99} duration={5}/> : null}+  
                             </div>
                             )}
                         </VisibilitySensor>
@@ -26,7 +26,7 @@ function Number() {
                 <VisibilitySensor partialVisibility offset= {{bottom: 200}}>
                         {({isVisible}) => (
                             <div>
-                              {isVisible ? <CountUp start={0} end={100} duration={5}/> : null}+  
+                              {isVisible ? <CountUp start={0} end={99} duration={5}/> : null}+  
                             </div>
                             )}
                         </VisibilitySensor>
@@ -40,7 +40,7 @@ function Number() {
                 <VisibilitySensor partialVisibility offset= {{bottom: 200}}>
                         {({isVisible}) => (
                             <div>
-                              {isVisible ? <CountUp start={0} end={2} duration={5}/> : null}+  
+                              {isVisible ? <CountUp start={0} end={99} duration={5}/> : null}+  
                             </div>
                             )}
                         </VisibilitySensor>

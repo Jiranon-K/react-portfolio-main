@@ -20,7 +20,9 @@
         & .text_2 {
             font-size: 64px;
             font-weight: bold;
-            color: #0085FF;
+            background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
 
         & .text_3 {
@@ -40,7 +42,7 @@
             & li {
                 margin-right: 20px;
 
-                & svg{
+                & svg {
                     width: 32px;
                     height: 32px;
                     color: #333;
@@ -49,7 +51,7 @@
 
         }
 
-        & .hero_img{
+        & .hero_img {
 
             width: 300px;
             height: 300px;
@@ -63,19 +65,20 @@
     }
 }
 
-@media screen and (max-width: 480px){
-    .hero_warpper{
+@media screen and (max-width: 480px) {
+    .hero_warpper {
         height: auto;
 
         & .hero_con {
-            flex-direction: column ;
+            flex-direction: column;
             margin: 50px 0;
             padding: 20px;
 
-            & .hero_info , & .hero_img{
+            & .hero_info,
+            & .hero_img {
                 width: 100%;
             }
         }
     }
-    
+
 }

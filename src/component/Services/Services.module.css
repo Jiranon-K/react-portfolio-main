@@ -8,6 +8,9 @@
          margin-top: 60px;
          font-size: 32px;
          font-weight: bold;
+         background: linear-gradient(90deg, #ff0033 0%, #7810ff 100%);
+         -webkit-background-clip: text;
+         -webkit-text-fill-color: transparent;
 
      }
 
@@ -24,34 +27,36 @@
          & svg {
              width: 80px;
              height: 80px;
-             color: #0085FF;
+             color: #ff00bf;
 
          }
 
-         & h4{
-            color: #0085FF;
-            font-size: 24px;
-            font-weight: bold;
-            margin: 25px 0;
+         & h4 {
+             background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+             -webkit-background-clip: text;
+             -webkit-text-fill-color: transparent;
+             font-size: 24px;
+             font-weight: bold;
+             margin: 25px 0;
          }
 
      }
  }
 
  @media screen and (max-width: 480px) {
-    .services_con{
-        height: auto;
+     .services_con {
+         height: auto;
 
 
-        & .services_list{
-            flex-direction: column;
-            margin: 50px 0;
+         & .services_list {
+             flex-direction: column;
+             margin: 50px 0;
 
-            & .services_items{
-                width: 100%;
-                margin: 20px 0;
-                padding: 20px;
-            }
-        }
-    }
+             & .services_items {
+                 width: 100%;
+                 margin: 20px 0;
+                 padding: 20px;
+             }
+         }
+     }
  }
