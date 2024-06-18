@@ -23,7 +23,7 @@ function Navbar() {
               <li><a href="#contact">Contact</a></li>
             </ul>
             <div className={styles.button}>
-              <a href="#">Hire Me</a>
+              <a href="#contact">Hire Me</a>
             </div>
           </div>
 

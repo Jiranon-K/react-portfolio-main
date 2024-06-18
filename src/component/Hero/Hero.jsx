@@ -28,11 +28,11 @@ function Hero() {
                             />
                         </p>
                         <p className={styles.text_4}>
-                            I am a university student majoring in Computer Science <br />This is a website that collects my work.
+                            I am a university student majoring in Computer Science <br />This is a website for collects my work.
                         </p>
                         <ul className={styles.hero_social}>
                             <li><a href="https://github.com/Jiranon-K"><FaGithub /></a></li>
-                            <li><a href="#"><FaLinkedin /></a></li>
+                            <li><a href="https://www.linkedin.com/in/jiranon-k/"><FaLinkedin /></a></li>
                             <li><a href="https://www.facebook.com/JiranonMe"><FaFacebook /></a></li>
                         </ul>
                     </div>
