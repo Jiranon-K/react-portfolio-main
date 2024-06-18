@@ -3,7 +3,7 @@
     height: 900px;
     margin: 0 auto;
     overflow: hidden;
-
+    text-decoration: none;
 
     & .port_title {
         margin-top: 45px;
@@ -19,6 +19,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         justify-items: center;
+        
 
         & .port_item {
             margin-top: 60px;
