@@ -23,23 +23,27 @@ function Contact() {
                         <div className={styles.input_group}>
                             <div>
                                 <label htmlFor="first name">First Name</label>
-                                <input type="text" placeholder='eg. John' />
+                                <input type="text" placeholder='eg. John'  id='firstname'/>
                             </div>
                             <div>
                                 <label htmlFor="last name">Last Name</label>
-                                <input type="text" placeholder='eg. Doe' />
+                                <input type="text" placeholder='eg. Doe' id='lastname' />
                             </div>
                         </div>
-                        <label htmlFor="email address">Email address</label>
-                        <input type="email" placeholder='eg. johndoe@gmail.com' />
+                        <label htmlFor="email address" >Email address</label>
+                        <input type="email" placeholder='eg. john@gmail.com' id='email' />
                         <label htmlFor="email address">Your message</label>
-                        <textarea name="" id="" cols="30" rows="10" placeholder='Type here'></textarea>
-                        <button type='submit'>Submit</button>
+                        <textarea name="" id="message" cols="30" rows="10" placeholder='Type here'></textarea>
+                        <button type='submit' onClick={SendMail()}>Submit</button>
                     </form>
                 </div>
             </div>
         </div>
-    )
+    )       
 }
+
+
+
+
 
 export default Contact
