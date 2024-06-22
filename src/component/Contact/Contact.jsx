@@ -31,9 +31,9 @@ function Contact() {
                             </div>
                         </div>
                         <label htmlFor="email address" >Email address</label>
-                        <input type="email" placeholder='eg. john@gmail.com' id='email' />
+                        <input type="email" placeholder='eg. john@gmail.com' />
                         <label htmlFor="email address">Your message</label>
-                        <textarea name="" id="message" cols="30" rows="10" placeholder='Type here'></textarea>
+                        <textarea name="" id="" cols="30" rows="10" placeholder='Type here'></textarea>
                         <button type='submit' onClick={SendMail()}>Submit</button>
                     </form>
                 </div>
