@@ -19,19 +19,7 @@
 
 <body>
   <div id="root"></div>
-  <script type="module" src="/src/main.jsx">
-    function SendMail() {
-        var params ={
-            firstname : document.getElementById("firstname").value,
-            lastname : document.getElementById("lastname").value,
-            email :document.getElementById("email").value,
-            message :document.getElementById("message").value
-        }
-        emailjs.send("service_m1u0p99","template_o0oyfn3",params).then(function(res){
-           alert("Success!!")
-        })
-    }
-  </script>
+  <script type="module" src="/src/main.jsx"></script>
 </body>
 
 </html>
