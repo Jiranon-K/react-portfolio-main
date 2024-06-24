@@ -12,6 +12,8 @@ import Testimonials from './component/Testimonials/Testimonials'
 import Contact from './component/Contact/Contact'
 import Footer from './component/Footer/Footer'
 import AnimatedCursor from 'react-animated-cursor'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 
