@@ -3,7 +3,7 @@
     height: 900px;
     margin: 0 auto;
     overflow: hidden;
-    
+
 
     & .port_title {
         margin-top: 45px;
@@ -11,15 +11,15 @@
         font-size: 32px;
         font-weight: bold;
         background: linear-gradient(90deg, #ff1e4b 0%, #e100ff 100%);
-            -webkit-text-fill-color: text;
-            -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 
     & .port_list {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         justify-items: center;
-        
+
 
         & .port_item {
             margin-top: 60px;
@@ -39,7 +39,7 @@
                 text-decoration: none;
                 margin: 10px 0;
                 background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
-                -webkit-text-fill-color: text;
+                -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
 
             }
@@ -50,23 +50,23 @@
 }
 
 @media screen and (max-width:480px) {
-    .port_con{
+    .port_con {
         height: auto;
         margin: 30px 0;
 
-        & .port_list{
+        & .port_list {
             grid-template-columns: 1fr;
             padding: 20px;
 
-            & .port_item{
+            & .port_item {
                 width: 100%;
 
-                & img{
+                & img {
                     width: 100%;
                 }
             }
         }
 
     }
-    
+
 }
