@@ -11,7 +11,7 @@
         font-size: 32px;
         font-weight: bold;
         background: linear-gradient(90deg, #ff1e4b 0%, #e100ff 100%);
-           
+            -webkit-text-fill-color: text;
             -webkit-text-fill-color: transparent;
     }
 
@@ -39,7 +39,7 @@
                 text-decoration: none;
                 margin: 10px 0;
                 background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
-               
+                -webkit-text-fill-color: text;
                 -webkit-text-fill-color: transparent;
 
             }
