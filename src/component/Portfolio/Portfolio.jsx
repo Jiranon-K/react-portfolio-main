@@ -13,7 +13,7 @@ function Portfolio() {
                             <img src="https://img2.pic.in.th/pic/image602158b491f5837f.png" />
                         </a>
                     </Tilt>
-                    <a href="https://wize-store.vercel.app/">
+                    <a href="https://wize-store.vercel.app/" target="_blank" rel="noopener noreferrer">
                         <p>Front-End Ecommerce-Website</p>
                     </a>
                 </div>
@@ -23,7 +23,9 @@ function Portfolio() {
                             <img src="https://github.com/Jiranon-K/WeatherApp/assets/132673259/a596595e-3d5c-482c-b8a7-4f92ac005606" />
                         </a>
                     </Tilt>
+                    <a href="https://weather-app-x-simple.vercel.app/" target="_blank" rel="noopener noreferrer">
                     <p>WeatherApp</p>
+                    </a>
                 </div>
                 <div className={styles.port_item}>
                     <Tilt scale={1.1} transitionSpeed={2500} tiltReverse={true}>
