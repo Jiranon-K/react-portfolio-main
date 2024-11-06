@@ -39,11 +39,13 @@ function Portfolio() {
                 </div>
                 <div className={styles.port_item}>
                     <Tilt scale={1.1} transitionSpeed={2500} tiltReverse={true}>
-                        <a href="https://portfolio-tl-one.vercel.app/"></a>
+                        <a href="https://portfolio-tl-one.vercel.app/">
                         <img src="https://github.com/user-attachments/assets/5ae7da1b-b0b7-4e5d-86cb-d592f82164c8" alt="" />
+                            </a>
                     </Tilt>
-                     <a href="https://portfolio-tl-one.vercel.app/"></a>
+                     <a href="https://portfolio-tl-one.vercel.app/">
                     <p>Portfolio Tailwind</p>
+                         </a>
                 </div>
                 <div className={styles.port_item}>
                     <Tilt scale={1.1} transitionSpeed={2500} tiltReverse={true}>
