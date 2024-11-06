@@ -39,7 +39,7 @@ function Portfolio() {
                 </div>
                 <div className={styles.port_item}>
                     <Tilt scale={1.1} transitionSpeed={2500} tiltReverse={true}>
-                        <img src="https://ibb.co/4SPXbjZ" alt="" />
+                        <img src="https://github.com/user-attachments/assets/5ae7da1b-b0b7-4e5d-86cb-d592f82164c8" alt="" />
                     </Tilt>
                     <p>Portfolio Tailwind</p>
                 </div>
